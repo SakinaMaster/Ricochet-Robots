@@ -1,1 +1,4 @@
-# Ricochet-Robots
+'Ricochet Robot' is a registered trademark of Hans im Gluck Munich, Germany, 1999. The game was created by Alex Randolph. 
+The object of the game is to get the designated numbered robot to the indicated letter position. The numbered squares are all robots.  They unfortunately have no brakes, and so will continue in whatever direction they are moving until they encountar an obstacle. For each move enter the robot number and the desired direction. For instance entering 1 U would move the #1 robot as far up as it can go. The first letter of input is the robot number (1 - 4), and the second letter is the direction (L=left, U=up, R=right, D=down) 
+This version stores moves on a linked list, allowing infinite undo back to the beginning of the game. 
+Enter 'x' to exit.  Enter 'u' to undo a move.  Have fun!
